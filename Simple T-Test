@@ -1,0 +1,12 @@
+> x<-c(9,8,3,8,10)
+> y<-c(3,1,2,6,4,3,6)
+> t.test(x, y)
+
+data:  x and y
+t = 2.8651, df = 6.7687, p-value = 0.02505
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.6805904 7.3765524
+sample estimates:
+mean of x mean of y 
+ 7.600000  3.571429 
