@@ -1,0 +1,6 @@
+> Beachcomber <- c(163, 64)
+> Windsurfer <-c(154, 108)
+> choice<-data.frame(Beachcomber,Windsurfer)
+> row.names(choice)<-c("Yes","No")
+> choice
+> chisq.test(choice)
