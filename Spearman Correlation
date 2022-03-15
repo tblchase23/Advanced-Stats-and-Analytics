@@ -1,0 +1,154 @@
+ x<- c(287,243,237,227,247,264,247,247,251,254,277,303,285,254,280,264,261,292,248,253)
+
+> y<- c(271,261,230,225,236,252,243,247,238,274,256,305,273,234,261,265,241,292,228,252)
+
+> cor.test(x,y,method="Spearman")
+
+Error in match.arg(method) : 
+
+  'arg' should be one of “pearson”, “kendall”, “spearman”
+
+> cor.test(x,y,method="pearson")
+
+
+
+        Pearson's product-moment correlation
+
+
+
+data:  x and y
+
+t = 6.5033, df = 18, p-value = 4.088e-06
+
+alternative hypothesis: true correlation is not equal to 0
+
+95 percent confidence interval:
+
+ 0.6276251 0.9339189
+
+sample estimates:
+
+      cor 
+
+0.8375321 
+
+
+
+> cor.test(x,y,nethod="spearman")
+
+Spearman's rank correlation rho
+
+
+
+data:  x and y
+
+S = 322.47, p-value = 0.0001096
+
+alternative hypothesis: true rho is not equal to 0
+
+sample estimates:
+
+      rho 
+
+0.7575423 
+
+
+
+Warning message:
+
+In cor.test.default(x, y, method = "spearman") :
+
+  Cannot compute exact p-value with ties
+
+> plot(mydata$boardingscreeners, mydata$securityviolations)
+
+Er
+
+  object 'mydata' not found
+
+> plot(x$boardingscreeners,y$securityviolations)
+
+Error in x$boardingscreeners : $ operator is invalid for atomic vectors
+
+> plot(x,y)
+
+> plot(x,y, main="Association between boarding screener violations and security violations", xlab = "Pre-Boarding Screeners", ylab="Security Violations")
+
+> 
+
+> 
+
+> 
+
+> pch=19, frame = FALSE
+
+Error: unexpected ',' in "pch=19,"
+
+> 
+
+> 
+
+> plot (x,y,
+
++ xlab = "Pre-Boarding Screeners",
+
++ ylab = "Security Violations")
+
+> 
+
+> x = Pre-Boarding Screeners
+
+Error: unexpected symbol in "x = Pre-Boarding Screeners"
+
+> plot(x$boardingscreeners, y$securityviolations)
+
+Error in x$boardingscreeners : $ operator is invalid for atomic vectors
+
+> plot(x, y, 
+
++ main= "Bivariate Data Graph"
+
++ xlab= "Pre-Boarding Screeners",
+
+Error: unexpected symbol in:
+
+"main= "Bivariate Data Graph"
+
+xlab"
+
+> plot (x,y,
+
++ main= "Bivariate Data Graph",
+
++ xlab= "Preboarding Screeners",
+
++ ylab= "Security Violations")
+
+> 
+
+> 
+
+> plot(x,y)
+
+> 
+
+> plot(x, y)
+
+> 
+
+> x
+
+ [1] 287 243 237 227 247 264 247 247 251 254 277 303 285 254 280 264 261 292 248 253
+
+> y
+
+ [1] 271 261 230 225 236 252 243 247 238 274 256 305 273 234 261 265 241 292 228 252
+
+> plot(x,y)
+
+> plot(x,y,
+
++ xlab = "Preboarding Screeners",
+
++ ylab = "Security Violations")
+
