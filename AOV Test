@@ -1,0 +1,29 @@
+> High Stress<- c(10,9,8,9,10,8) 
+
+Error: unexpected symbol in "High Stress"
+
+> HighStress<- c(10,9,8,9,10,8)
+
+> ModerateStress<- c(8,10,6,7,8,8)
+
+> Lowstress<- c(4,6,6,4,2,2)
+
+> migrain <- data.frame(HighStress,ModerateStress,Lowstress)
+
+> migrain
+
+
+> summary(migrain)
+
+> oneway.test(values~Ind)
+
+
+> migraine <- stack(migrain)
+
+
+> aov.out = aov(values ~ ind, data = migraine)
+
+> summary(aov.out)
+
+
+      
